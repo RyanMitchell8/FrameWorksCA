@@ -1,12 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="../FrameWorksCA/css/main.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/main.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
+    <nav class="navbar navbar-expand-lg bg-secondary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link" href="#">Features</a>
+              <a class="nav-link" href="#">Pricing</a>
+              <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+            </div>
+          </div>
+          <form class="d-flex" role="search">
+            <button type="button" class="btn btn-primary me-2">Primary</button>
+            <button type="button" class="btn btn-primary">Primary</button>
+          </form>
+        </div>
+    </nav>
+    <nav class="navbar bg-body-tertiary ">
+        <div class="container-fluid ">
+          <form class="d-flex w-100 justify-content-center" role="search">
+            <div class="input-group me-2" style="max-width: 600px; flex-grow: 2;">
+              <span class="input-group-text bg-white"><i class="fas fa-search"></i></span>
+              <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+            </div>
     
+            <button type="button" class="btn btn-primary me-2 rounded-pill" style="width: 140px;">Primary</button>
+            <button type="button" class="btn btn-primary me-2 rounded-pill" style="width: 140px;">Primary</button>
+            <button type="button" class="btn btn-primary me-2 rounded-pill" style="width: 140px;">Primary</button>
+            <button type="button" class="btn btn-primary me-2 rounded-pill" style="width: 140px;">Primary</button>
+            <button type="button" class="btn btn-primary me-2 rounded-pill" style="width: 140px;">Primary</button>
+            <button type="button" class="btn btn-primary me-2 rounded-pill" style="width: 140px;">Primary</button>
+
+          </form>
+        </div>
+    </nav>
+
+    <div class="col-md-12 text-light py-5 my-4" style="background-image: url('images/download.jpg'); background-size: cover;">
+        <div class="container-xl py-5">
+            <div class="row vh-50 d-flex align-items-center">
+                <div class="col-md-8">
+                    <h1 class="fw-bold lh-1 display-1 mb-5">
+                        This really is a great product!
+                    </h1>
+                    <button type="button" class="btn btn-secondary me-2 rounded-pill mb-3" style="width: 240px;">Primary</button>
+                    <p class="fw-semibold text-uppercase">
+                        It really is such a great product - Elon would be so proud of
+                        us.
+                    </p>
+                </div>
+                <div class="col-md-4 card">
+                    <div class="card-body">
+                        <h4 class="card-title mb-2 fw-bold">Special title treatment</h4>
+                        <p class="m-0">something</p>
+                        <div class="input-group me-2 py-2" style="max-width: 600px; flex-grow: 2;">
+                            <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                        </div>
+                        <p class="m-0">something</p>
+                        <div class="input-group me-2 py-2" style="max-width: 600px; flex-grow: 2;">
+                            <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                        </div>
+                        <p class="m-0">something</p>
+                        <div class="input-group me-2 py-2" style="max-width: 600px; flex-grow: 2;">
+                            <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                        </div>
+                        <button type="button" class="btn btn-primary me-2 rounded-pill" style="width: 140px;">Primary</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+      
 </body>
 </html>
