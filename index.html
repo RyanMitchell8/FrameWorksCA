@@ -182,6 +182,68 @@
           </div>
         </div>
       </div>
+      <div class="row d-flex align-items-center m-5 py-5">
+        <div class="col-6">
+          <img src="images/tree-736885_1280.jpg" class="img-fluid" lt="" />
+        </div>
+        <div class="col-md-6">
+          <h1 class="fw-bold lh-1 display-5">
+            About Us
+          </h1>
+          <h3 class="py-4 text-secondary">
+            If you BUY now, I’ll be sending you another mystery bonus as a
+            token of appreciation. I’m selling this for $297 but you’re
+            getting it for FREE Today!
+          </h3>
+        </div>
+      </div>
+        <div class="container mt-5">
+          <div class="solar-section border-bottom py-3">
+            <div class="d-flex justify-content-between align-items-center">
+              <h1>Solar</h1>
+              <button class="btn btn-link text-decoration-none" type="button" data-bs-toggle="collapse" data-bs-target="#solarCollapse" aria-expanded="false" aria-controls="solarCollapse">
+                <span class="fw-bold">+</span>
+              </button>
+            </div>
+            <div id="solarCollapse" class="collapse mt-2">
+              <p>100 MW solar energy facility</p>
+              <ul>
+                <li><strong>Capacity:</strong> 100 MW</li>
+                <li><strong>Location:</strong> Agricultural Land</li>
+                <li><strong>Technology:</strong> Advanced Photovoltaic Panels</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="container my-5">
+          <div class="col-6">
+            <h2>Energy Savings Calculator</h2>
+          <p>See how much you could save by switching to renewable energy!</p>
+          <form id="savingsForm" class="mb-3">
+            <label for="monthlyBill" class="form-label">Enter your monthly electricity bill ($):</label>
+            <input type="number" id="monthlyBill" class="form-control mb-3" placeholder="e.g., 150" required>
+            <button type="submit" class="btn btn-success">Calculate Savings</button>
+          </form>
+          <div id="savingsResult" class="alert alert-info" style="display: none;"></div>
+          </div>
+        </div>
+        
+        <script>
+          document.getElementById("savingsForm").addEventListener("submit", function (e) {
+            e.preventDefault();
+            const bill = parseFloat(document.getElementById("monthlyBill").value);
+            if (!bill || bill <= 0) {
+              alert("Please enter a valid number!");
+              return;
+            }
+            const yearlyBill = bill * 12;
+            const savings = yearlyBill * 0.3; // Assume 30% savings
+            const result = `You could save approximately $${savings.toFixed(2)} per year by switching to renewable energy!`;
+            document.getElementById("savingsResult").innerText = result;
+            document.getElementById("savingsResult").style.display = "block";
+          });
+        </script>
+        
       <div id="carouselExampleIndicators" class="carousel slide col-12">
         <div class="carousel-indicators">
           <button
@@ -207,8 +269,8 @@
         </div>
 
       <div class="carousel py-5" data-flickity='{ "groupCells": true }'>
-        <div class="col-sm-4 me-3">
-          <div class="card py-2">
+        <div class="col-sm-3 me-3">
+          <div class="card py-2 align-items-center">
             <img
               src="images/profile_2.png"
               class="card-img-top rounded-circle"
@@ -224,7 +286,125 @@
             </div>
           </div>
         </div>
-        
+        <div class="col-sm-3 me-3">
+          <div class="card py-2 align-items-center">
+            <img
+              src="images/profile_2.png"
+              class="card-img-top rounded-circle"
+              style="width: 50%"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Special title treatment</h5>
+              <p class="card-text">
+                With supporting text below as a natural lead-in to additional
+                content.
+              </p>
+            </div>
+          </div>
+        </div> 
+        <div class="col-sm-3 me-3">
+          <div class="card py-2 align-items-center">
+            <img
+              src="images/profile_2.png"
+              class="card-img-top rounded-circle"
+              style="width: 50%"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Special title treatment</h5>
+              <p class="card-text">
+                With supporting text below as a natural lead-in to additional
+                content.
+              </p>
+            </div>
+          </div>
+        </div> 
+        <div class="col-sm-3 me-3">
+          <div class="card py-2 align-items-center">
+            <img
+              src="images/profile_2.png"
+              class="card-img-top rounded-circle"
+              style="width: 50%"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Special title treatment</h5>
+              <p class="card-text">
+                With supporting text below as a natural lead-in to additional
+                content.
+              </p>
+            </div>
+          </div>
+        </div> 
+        <div class="col-sm-3 me-3">
+          <div class="card py-2 align-items-center">
+            <img
+              src="images/profile_2.png"
+              class="card-img-top rounded-circle"
+              style="width: 50%"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Special title treatment</h5>
+              <p class="card-text">
+                With supporting text below as a natural lead-in to additional
+                content.
+              </p>
+            </div>
+          </div>
+        </div> 
+        <div class="col-sm-3 me-3">
+          <div class="card py-2 align-items-center">
+            <img
+              src="images/profile_2.png"
+              class="card-img-top rounded-circle"
+              style="width: 50%"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Special title treatment</h5>
+              <p class="card-text">
+                With supporting text below as a natural lead-in to additional
+                content.
+              </p>
+            </div>
+          </div>
+        </div> 
+        <div class="col-sm-3 me-3">
+          <div class="card py-2 align-items-center">
+            <img
+              src="images/profile_2.png"
+              class="card-img-top rounded-circle"
+              style="width: 50%"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Special title treatment</h5>
+              <p class="card-text">
+                With supporting text below as a natural lead-in to additional
+                content.
+              </p>
+            </div>
+          </div>
+        </div> 
+        <div class="col-sm-3 me-3">
+          <div class="card py-2 align-items-center">
+            <img
+              src="images/profile_2.png"
+              class="card-img-top rounded-circle"
+              style="width: 50%"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Special title treatment</h5>
+              <p class="card-text">
+                With supporting text below as a natural lead-in to additional
+                content.
+              </p>
+            </div>
+          </div>
+        </div> 
       </div>
     </div>
 
