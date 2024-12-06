@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/flickity@2/dist/flickity.min.css"
+    />
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="stylesheet" href="../css/flickity.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-secondary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link" href="#">Features</a>
+            <a class="nav-link" href="#">Pricing</a>
+            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+          </div>
+        </div>
+        <form class="d-flex" role="search">
+          <button type="button" class="btn btn-primary me-2">Primary</button>
+          <button type="button" class="btn btn-primary">Primary</button>
+        </form>
+      </div>
+    </nav>
+    
+
+    <div class="container my-5">
+        <div class="row align-items-center">
+          <div class="col-md-6 mb-4">
+            <img src="images/OhmeL.PNG" class="img-fluid rounded shadow" alt="Energy Image">
+          </div>
+          <div class="col-md-6">
+            <h2 class="display-4 fw-bold mb-3">Energy Savings Calculator</h2>
+            <p class="lead mb-4">See how much you could save by switching to renewable energy!</p>
+            
+            <form id="savingsForm" class="mb-4">
+              <div class="mb-3">
+                <label for="monthlyBill" class="form-label">Enter your monthly electricity bill ($):</label>
+                <input
+                  type="number"
+                  id="monthlyBill"
+                  class="form-control"
+                  placeholder="e.g., 150"
+                  required
+                />
+              </div>
+              
+              <button type="submit" class="btn btn-success w-100">Calculate Savings</button>
+            </form>
+            
+            <div id="savingsResult" class="alert alert-info mt-3" style="display: none;"></div>
+          </div>
+        </div>
+      </div>
+      
+
+      <script>
+        document
+          .getElementById("savingsForm")
+          .addEventListener("submit", function (e) {
+            e.preventDefault();
+            const bill = parseFloat(
+              document.getElementById("monthlyBill").value
+            );
+            if (!bill || bill <= 0) {
+              alert("Please enter a valid number!");
+              return;
+            }
+            const yearlyBill = bill * 12;
+            const savings = yearlyBill * 0.3;
+            const result = `You could save approximately $${savings.toFixed(
+              2
+            )} per year by switching to renewable energy!`;
+            document.getElementById("savingsResult").innerText = result;
+            document.getElementById("savingsResult").style.display = "block";
+          });
+      </script>
+
+      
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+      integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+  </body>
+</html>
