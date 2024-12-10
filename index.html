@@ -196,90 +196,105 @@
         </div>
       </div>
 
-      <div class="container mt-5">
-        <div class="solar-section border-bottom py-3">
-          <div class="d-flex justify-content-between align-items-center">
-            <h1>Solar</h1>
-            <button
-              class="btn btn-link text-decoration-none"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#solarCollapse1"
-              aria-expanded="false"
-              aria-controls="solarCollapse1"
-            >
-              <span class="fw-bold">+</span>
-            </button>
+      <div class="bg-light py-5">
+        <div class="container mt-5">
+          <!-- Section Header -->
+          <div class="text-center mb-5">
+            <h2 class="fw-bold">Explore Our Features</h2>
+            <p class="text-muted">
+              Discover how we’re revolutionizing energy management with cutting-edge technology and user-centric solutions.
+            </p>
           </div>
-          <div
-            id="solarCollapse1"
-            class="collapse mt-2"
-            data-bs-parent="#solarAccordion"
-          >
-            <p>100 MW solar energy facility</p>
-            <ul>
-              <li><strong>Capacity:</strong> 100 MW</li>
-              <li><strong>Location:</strong> Agricultural Land</li>
-              <li><strong>Technology:</strong> Advanced Photovoltaic Panels</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="solar-section border-bottom py-3">
-          <div class="d-flex justify-content-between align-items-center">
-            <h1>Solar</h1>
-            <button
-              class="btn btn-link text-decoration-none"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#solarCollapse2"
-              aria-expanded="false"
-              aria-controls="solarCollapse2"
-            >
-              <span class="fw-bold">+</span>
-            </button>
-          </div>
-          <div
-            id="solarCollapse2"
-            class="collapse mt-2"
-            data-bs-parent="#solarAccordion"
-          >
-            <p>100 MW solar energy facility</p>
-            <ul>
-              <li><strong>Capacity:</strong> 100 MW</li>
-              <li><strong>Location:</strong> Agricultural Land</li>
-              <li><strong>Technology:</strong> Advanced Photovoltaic Panels</li>
-            </ul>
-          </div>
-        </div>
-        <div class="solar-section border-bottom py-3">
-          <div class="d-flex justify-content-between align-items-center">
-            <h1>Solar</h1>
-            <button
-              class="btn btn-link text-decoration-none"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#solarCollapse3"
-              aria-expanded="false"
-              aria-controls="solarCollapse3"
-            >
-              <span class="fw-bold">+</span>
-            </button>
-          </div>
-          <div
-            id="solarCollapse3"
-            class="collapse mt-2"
-            data-bs-parent="#solarAccordion"
-          >
-            <p>100 MW solar energy facility</p>
-            <ul>
-              <li><strong>Capacity:</strong> 100 MW</li>
-              <li><strong>Location:</strong> Agricultural Land</li>
-              <li><strong>Technology:</strong> Advanced Photovoltaic Panels</li>
-            </ul>
+      
+          <!-- Feature Accordion -->
+          <div class="accordion" id="featureAccordion">
+            <!-- Feature 1 -->
+            <div class="feature-section border-bottom py-4">
+              <div class="d-flex justify-content-between align-items-center">
+                <div>
+                  <h4 class="fw-bold mb-0">Energy Insights</h4>
+                  <small class="text-muted">Understand your energy usage like never before.</small>
+                </div>
+                <button
+                  class="btn btn-outline-primary rounded-circle"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#featureCollapse1"
+                  aria-expanded="false"
+                  aria-controls="featureCollapse1"
+                >
+                  <i class="fas fa-plus"></i>
+                </button>
+              </div>
+              <div id="featureCollapse1" class="collapse mt-3" data-bs-parent="#featureAccordion">
+                <p>Get a detailed breakdown of your energy consumption patterns with real-time data analytics.</p>
+                <ul class="list-unstyled">
+                  <li><strong>Key Benefit:</strong> Identify peak usage hours to optimize savings.</li>
+                  <li><strong>Tools:</strong> Interactive graphs and monthly reports.</li>
+                  <li><strong>Impact:</strong> Save up to 20% on your energy bills.</li>
+                </ul>
+              </div>
+            </div>
+      
+            <!-- Feature 2 -->
+            <div class="feature-section border-bottom py-4">
+              <div class="d-flex justify-content-between align-items-center">
+                <div>
+                  <h4 class="fw-bold mb-0">Smart Recommendations</h4>
+                  <small class="text-muted">Personalized tips for a greener lifestyle.</small>
+                </div>
+                <button
+                  class="btn btn-outline-primary rounded-circle"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#featureCollapse2"
+                  aria-expanded="false"
+                  aria-controls="featureCollapse2"
+                >
+                  <i class="fas fa-plus"></i>
+                </button>
+              </div>
+              <div id="featureCollapse2" class="collapse mt-3" data-bs-parent="#featureAccordion">
+                <p>Our AI-driven system provides custom recommendations to help you save energy effortlessly.</p>
+                <ul class="list-unstyled">
+                  <li><strong>Example:</strong> Switch to energy-efficient appliances.</li>
+                  <li><strong>Eco-Score:</strong> Track your progress in reducing your carbon footprint.</li>
+                  <li><strong>Goal:</strong> Achieve a 30% reduction in emissions over time.</li>
+                </ul>
+              </div>
+            </div>
+      
+            <!-- Feature 3 -->
+            <div class="feature-section border-bottom py-4">
+              <div class="d-flex justify-content-between align-items-center">
+                <div>
+                  <h4 class="fw-bold mb-0">Renewable Integration</h4>
+                  <small class="text-muted">Seamlessly connect to renewable energy sources.</small>
+                </div>
+                <button
+                  class="btn btn-outline-primary rounded-circle"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#featureCollapse3"
+                  aria-expanded="false"
+                  aria-controls="featureCollapse3"
+                >
+                  <i class="fas fa-plus"></i>
+                </button>
+              </div>
+              <div id="featureCollapse3" class="collapse mt-3" data-bs-parent="#featureAccordion">
+                <p>Transition to a sustainable energy model with our renewable energy integration solutions.</p>
+                <ul class="list-unstyled">
+                  <li><strong>Support:</strong> Solar panels, wind turbines, and hydro systems.</li>
+                  <li><strong>Efficiency:</strong> Monitor and manage energy storage systems.</li>
+                  <li><strong>Outcome:</strong> Achieve energy independence while supporting the planet.</li>
+                </ul>
+              </div>
+            </div>
           </div>
         </div>
       </div>
+      
 
       <div class="container-fluid bg-light py-5">
         <div class="container-lg">
@@ -313,6 +328,7 @@
         </div>
     </div>
     
+    <h2 class="fw-bold py-4">App Reviews</h2>
 
       <div id="carouselExampleIndicators" class="carousel slide col-12">
         <div class="carousel-indicators">
@@ -339,143 +355,111 @@
         </div>
 
         <div class="carousel py-5" data-flickity='{ "groupCells": true }'>
-          <div class="col-sm-3 me-3">
+          <!-- Review 1 -->
+          <div class="col-sm-2 me-3">
             <div class="card py-2 align-items-center">
-              <img
-                src="images/profile_2.png"
-                class="card-img-top rounded-circle"
-                style="width: 50%"
-                alt="..."
-              />
+              <img src="images/profile_2.png" class="card-img-top rounded-circle" style="width: 50%" alt="User 1" />
               <div class="card-body">
-                <h5 class="card-title">Special title treatment</h5>
+                <h5 class="card-title">Sarah J.</h5>
                 <p class="card-text">
-                  With supporting text below as a natural lead-in to additional
-                  content.
+                  "I’ve been using OhmE for a few months now, and it’s completely transformed the way I manage my energy consumption. The real-time tracking of energy usage has helped me cut down on unnecessary usage and save money. I highly recommend it to anyone who’s looking to make their home more energy-efficient!"
                 </p>
               </div>
             </div>
           </div>
-          <div class="col-sm-3 me-3">
+          
+          <!-- Review 2 -->
+          <div class="col-sm-2 me-3">
             <div class="card py-2 align-items-center">
-              <img
-                src="images/profile_2.png"
-                class="card-img-top rounded-circle"
-                style="width: 50%"
-                alt="..."
-              />
+              <img src="images/profile_2.png" class="card-img-top rounded-circle" style="width: 50%" alt="User 2" />
               <div class="card-body">
-                <h5 class="card-title">Special title treatment</h5>
+                <h5 class="card-title">David L.</h5>
                 <p class="card-text">
-                  With supporting text below as a natural lead-in to additional
-                  content.
+                  "The app is so user-friendly and intuitive. It helped me identify areas in my home where I could easily reduce my energy consumption. Plus, the energy-saving tips are fantastic! OhmE has definitely made my home smarter and more sustainable."
                 </p>
               </div>
             </div>
           </div>
-          <div class="col-sm-3 me-3">
+          
+          <!-- Review 3 -->
+          <div class="col-sm-2 me-3">
             <div class="card py-2 align-items-center">
-              <img
-                src="images/profile_2.png"
-                class="card-img-top rounded-circle"
-                style="width: 50%"
-                alt="..."
-              />
+              <img src="images/profile_2.png" class="card-img-top rounded-circle" style="width: 50%" alt="User 3" />
               <div class="card-body">
-                <h5 class="card-title">Special title treatment</h5>
+                <h5 class="card-title">Emma W.</h5>
                 <p class="card-text">
-                  With supporting text below as a natural lead-in to additional
-                  content.
+                  "I love how OhmE gives me real-time feedback on my energy usage. The app's interface is clean, and I feel empowered to make informed decisions about how to reduce my carbon footprint. The notifications are a nice touch, keeping me on track with my energy goals!"
                 </p>
               </div>
             </div>
           </div>
-          <div class="col-sm-3 me-3">
+          
+          <!-- Review 4 -->
+          <div class="col-sm-2 me-3">
             <div class="card py-2 align-items-center">
-              <img
-                src="images/profile_2.png"
-                class="card-img-top rounded-circle"
-                style="width: 50%"
-                alt="..."
-              />
+              <img src="images/profile_2.png" class="card-img-top rounded-circle" style="width: 50%" alt="User 4" />
               <div class="card-body">
-                <h5 class="card-title">Special title treatment</h5>
+                <h5 class="card-title">John D.</h5>
                 <p class="card-text">
-                  With supporting text below as a natural lead-in to additional
-                  content.
+                  "As someone who’s always been mindful of my energy usage, OhmE has been a game-changer. I love the personalized suggestions for reducing energy consumption. It’s also really easy to see where my biggest energy drains are!"
                 </p>
               </div>
             </div>
           </div>
-          <div class="col-sm-3 me-3">
+          
+          <!-- Review 5 -->
+          <div class="col-sm-2 me-3">
             <div class="card py-2 align-items-center">
-              <img
-                src="images/profile_2.png"
-                class="card-img-top rounded-circle"
-                style="width: 50%"
-                alt="..."
-              />
+              <img src="images/profile_2.png" class="card-img-top rounded-circle" style="width: 50%" alt="User 5" />
               <div class="card-body">
-                <h5 class="card-title">Special title treatment</h5>
+                <h5 class="card-title">Lucas G.</h5>
                 <p class="card-text">
-                  With supporting text below as a natural lead-in to additional
-                  content.
+                  "I didn’t realize how much energy I was wasting until I started using OhmE. The app has helped me reduce my electricity bill by almost 25%. The insights are extremely helpful, and the app continues to improve with each update."
                 </p>
               </div>
             </div>
           </div>
-          <div class="col-sm-3 me-3">
+          
+          <!-- Review 6 -->
+          <div class="col-sm-2 me-3">
             <div class="card py-2 align-items-center">
-              <img
-                src="images/profile_2.png"
-                class="card-img-top rounded-circle"
-                style="width: 50%"
-                alt="..."
-              />
+              <img src="images/profile_2.png" class="card-img-top rounded-circle" style="width: 50%" alt="User 6" />
               <div class="card-body">
-                <h5 class="card-title">Special title treatment</h5>
+                <h5 class="card-title">Nina S.</h5>
                 <p class="card-text">
-                  With supporting text below as a natural lead-in to additional
-                  content.
+                  "I’m all about sustainability, and OhmE has made it so easy for me to see how my energy use impacts the environment. I love the tips on how to reduce my carbon footprint, and the app’s gamification features make saving energy feel like a fun challenge!"
                 </p>
               </div>
             </div>
           </div>
-          <div class="col-sm-3 me-3">
+          
+          <!-- Review 7 -->
+          <div class="col-sm-2 me-3">
             <div class="card py-2 align-items-center">
-              <img
-                src="images/profile_2.png"
-                class="card-img-top rounded-circle"
-                style="width: 50%"
-                alt="..."
-              />
+              <img src="images/profile_2.png" class="card-img-top rounded-circle" style="width: 50%" alt="User 7" />
               <div class="card-body">
-                <h5 class="card-title">Special title treatment</h5>
+                <h5 class="card-title">James R.</h5>
                 <p class="card-text">
-                  With supporting text below as a natural lead-in to additional
-                  content.
+                  "The convenience of having everything I need to track my energy consumption in one place is amazing. OhmE makes it simple to monitor my home’s energy usage and even offers suggestions for improvement. It’s great for anyone looking to cut costs and live more sustainably!"
                 </p>
               </div>
             </div>
           </div>
-          <div class="col-sm-3 me-3">
+          
+          <!-- Review 8 -->
+          <div class="col-sm-2 me-3">
             <div class="card py-2 align-items-center">
-              <img
-                src="images/profile_2.png"
-                class="card-img-top rounded-circle"
-                style="width: 50%"
-                alt="..."
-              />
+              <img src="images/profile_2.png" class="card-img-top rounded-circle" style="width: 50%" alt="User 8" />
               <div class="card-body">
-                <h5 class="card-title">Special title treatment</h5>
+                <h5 class="card-title">Olivia T.</h5>
                 <p class="card-text">
-                  With supporting text below as a natural lead-in to additional
-                  content.
+                  "I’ve tried other energy tracking apps before, but OhmE is by far the best. It’s intuitive, easy to use, and the recommendations are spot-on. I’m already seeing a difference in my energy bills, and it feels good knowing I’m doing my part to help the planet!"
                 </p>
               </div>
             </div>
           </div>
         </div>
+        
       </div>
 
       <div class="container-fluid bg-black text-light py-5">
