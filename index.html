@@ -16,94 +16,60 @@
     <title>Document</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-secondary">
+    <!-- Main Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
+        <a class="navbar-brand" href="#">
+          <img src="images/ohme-logo.png" alt="OhmE" width="120"> <!-- Add your logo here -->
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-            <a class="nav-link" href="#">Features</a>
-            <a class="nav-link" href="#">Pricing</a>
-            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-          </div>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#features">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#pricing">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
         </div>
-        <form class="d-flex" role="search">
-          <button type="button" class="btn btn-primary me-2">Primary</button>
-          <button type="button" class="btn btn-primary">Primary</button>
-        </form>
       </div>
     </nav>
-    <nav class="navbar bg-body-tertiary">
+
+    <!-- Search & Call to Action Section -->
+    <nav class="navbar bg-light">
       <div class="container-fluid">
         <form class="d-flex w-100 justify-content-center" role="search">
           <div class="input-group me-2" style="max-width: 600px; flex-grow: 2">
-            <span class="input-group-text bg-white"
-              ><i class="fas fa-search"></i
-            ></span>
-            <input
-              class="form-control"
-              type="search"
-              placeholder="Search"
-              aria-label="Search"
-            />
+            <span class="input-group-text bg-white"><i class="fas fa-search"></i></span>
+            <input class="form-control" type="search" placeholder="Search energy-saving tips" aria-label="Search" />
           </div>
 
-          <button
-            type="button"
-            class="btn btn-primary me-2 rounded-pill"
-            style="width: 140px"
-          >
-            Primary
+          <!-- Call-to-Action Buttons -->
+          <button type="button" class="btn btn-success me-2 rounded-pill" style="width: 140px">
+            Track Usage
           </button>
-          <button
-            type="button"
-            class="btn btn-primary me-2 rounded-pill"
-            style="width: 140px"
-          >
-            Primary
+          <button type="button" class="btn btn-info me-2 rounded-pill" style="width: 140px">
+            Learn More
           </button>
-          <button
-            type="button"
-            class="btn btn-primary me-2 rounded-pill"
-            style="width: 140px"
-          >
-            Primary
-          </button>
-          <button
-            type="button"
-            class="btn btn-primary me-2 rounded-pill"
-            style="width: 140px"
-          >
-            Primary
-          </button>
-          <button
-            type="button"
-            class="btn btn-primary me-2 rounded-pill"
-            style="width: 140px"
-          >
-            Primary
-          </button>
-          <button
-            type="button"
-            class="btn btn-primary me-2 rounded-pill"
-            style="width: 140px"
-          >
-            Primary
+          <button type="button" class="btn btn-warning me-2 rounded-pill" style="width: 140px">
+            Save Now
           </button>
         </form>
       </div>
     </nav>
+
 
     <div class="container-fluid col-md-12">
       <div
@@ -130,54 +96,6 @@
                 It really is such a great product - Elon would be so proud of
                 us.
               </p>
-            </div>
-            <div class="col-md-4 card">
-              <div class="card-body">
-                <h4 class="card-title mb-2 fw-bold">Special title treatment</h4>
-                <p class="m-0">something</p>
-                <div
-                  class="input-group me-2 py-2"
-                  style="max-width: 600px; flex-grow: 2"
-                >
-                  <input
-                    class="form-control"
-                    type="search"
-                    placeholder="Search"
-                    aria-label="Search"
-                  />
-                </div>
-                <p class="m-0">something</p>
-                <div
-                  class="input-group me-2 py-2"
-                  style="max-width: 600px; flex-grow: 2"
-                >
-                  <input
-                    class="form-control"
-                    type="search"
-                    placeholder="Search"
-                    aria-label="Search"
-                  />
-                </div>
-                <p class="m-0">something</p>
-                <div
-                  class="input-group me-2 py-2"
-                  style="max-width: 600px; flex-grow: 2"
-                >
-                  <input
-                    class="form-control"
-                    type="search"
-                    placeholder="Search"
-                    aria-label="Search"
-                  />
-                </div>
-                <button
-                  type="button"
-                  class="btn btn-primary me-2 rounded-pill"
-                  style="width: 140px"
-                >
-                  Primary
-                </button>
-              </div>
             </div>
           </div>
         </div>
@@ -294,6 +212,22 @@
           </div>
         </div>
       </div>
+
+      <div class="container my-5 py-4">
+        <div class="row align-items-center bg-black p-5 rounded shadow text-light">
+          <div class="col-md-6 mb-4 mb-md-0">
+            <img src="images/calculator-preview.png" class="img-fluid rounded" alt="Calculator Preview">
+          </div>
+          <div class="col-md-6">
+            <h2 class="display-5 fw-bold mb-3">Discover Your Energy Savings</h2>
+            <p class="lead mb-4">
+              Our Energy Savings Calculator helps you estimate how much you can save by switching to renewable energy. It's quick, easy, and provides valuable insights to make informed decisions about your energy usage.
+            </p>
+            <a href="EgCal.html" class="btn btn-success btn-lg">Try the Calculator</a>
+          </div>
+        </div>
+      </div>
+      
       
 
       <div class="container-fluid bg-light py-5">
