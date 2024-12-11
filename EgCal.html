@@ -17,60 +17,44 @@
   </head>
   <body>
     <!-- Main Navbar -->
-      <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">
-            <img src="images/ohme-logo.png" alt="OhmE" width="120"> <!-- Add your logo here -->
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#features">Features</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#pricing">Pricing</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#about">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#contact">Contact</a>
-              </li>
-            </ul>
+    <nav class="navbar navbar-expand-lg" style="background: linear-gradient(90deg, #4a90e2, #007bff); color: white;">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img src="images/ohme.svg" alt="OhmE" width="120" style="border: 3px solid white; border-radius: 50%; padding: 5px; background-color: #007bff;">
+        </a>        
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#" style="color: white; font-weight: bold;">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#features" style="color: white;">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#pricing" style="color: white;">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about" style="color: white;">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact" style="color: white;">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <form class="d-flex w-100 justify-content-center align-items-center" role="search">
+          <div class="input-group me-2" style="max-width: 600px; flex-grow: 2; border-radius: 30px; overflow: hidden;">
+            <span class="input-group-text bg-white border-0"><i class="fas fa-search" style="color: #007bff;"></i></span>
+            <input class="form-control border-0" type="search" placeholder="Search energy-saving tips" aria-label="Search" />
           </div>
-        </div>
-      </nav>
-
-      <!-- Search & Call to Action Section -->
-      <nav class="navbar bg-light">
-        <div class="container-fluid">
-          <form class="d-flex w-100 justify-content-center" role="search">
-            <div class="input-group me-2" style="max-width: 600px; flex-grow: 2">
-              <span class="input-group-text bg-white"><i class="fas fa-search"></i></span>
-              <input class="form-control" type="search" placeholder="Search energy-saving tips" aria-label="Search" />
-            </div>
-
-            <!-- Call-to-Action Buttons -->
-            <button type="button" class="btn btn-success me-2 rounded-pill" style="width: 140px">
-              Track Usage
-            </button>
-            <button type="button" class="btn btn-info me-2 rounded-pill" style="width: 140px">
-              Learn More
-            </button>
-            <button type="button" class="btn btn-warning me-2 rounded-pill" style="width: 140px">
-              Save Now
-            </button>
-          </form>
-        </div>
-      </nav>
-
-    
+          <button type="button" class="btn btn-outline-light me-2 rounded-pill" style="width: 140px; font-weight: bold;">
+            Track Usage
+          </button>
+        </form>
+      </div>
+    </nav>
 
     <div class="container my-5">
         <div class="row align-items-center">
