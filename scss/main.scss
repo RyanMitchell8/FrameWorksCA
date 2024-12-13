@@ -1,3 +1,57 @@
+$primary: #007bff;
+$navbar-color: 'red';
+$navbar-hover-color: 'red';
+$bs-navbar-color: rgb(184, 14, 14);
+$bs-navbar-color: rgb(184, 14, 14);
+
+
+.nav_class_test {
+    background: linear-gradient(90deg, #4a90e2, #007bff); 
+    // color: white;
+}
+
+.OhmE {
+    width: 60px; 
+    border: 3px solid white; 
+    border-radius: 50%; 
+    padding: 5px; 
+    background-color: #007bff;
+}
+
+.SNB{
+    max-width: 600px;
+    flex-grow: 2;
+    border-radius: 30px; 
+    overflow: hidden;
+}
+
+.trackB{
+    width: 140px;
+    font-weight: bold;
+}
+
+.saveE{
+    background-image: url('/images/download.jpg');
+    background-size: cover;
+        
+}
+
+.bolden{
+    font-weight: bold;
+    color: white;
+}
+
+.fa-search{
+    color: #007bff;
+}
+
+.LMB{
+    width: 240px;
+}
+
+.downL{
+    max-width: 80%;
+}
 
 
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
