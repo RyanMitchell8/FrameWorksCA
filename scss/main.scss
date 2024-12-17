@@ -5,17 +5,15 @@ $bs-navbar-color: rgb(184, 14, 14);
 $bs-navbar-color: rgb(184, 14, 14);
 
 
-.nav_class_test {
-    background: linear-gradient(90deg, #4a90e2, #007bff); 
-    // color: white;
+.OhmEE{
+    background-color: #007bff;
 }
 
 .OhmE {
     width: 60px; 
     border: 3px solid white; 
     border-radius: 50%; 
-    padding: 5px; 
-    background-color: #007bff;
+    padding: 5px;
 }
 
 .SNB{
@@ -31,9 +29,8 @@ $bs-navbar-color: rgb(184, 14, 14);
 }
 
 .saveE{
-    background-image: url('/images/download.jpg');
+    background-image: url('/images/gettyimages-584487610.webp');
     background-size: cover;
-        
 }
 
 .bolden{
@@ -53,5 +50,73 @@ $bs-navbar-color: rgb(184, 14, 14);
     max-width: 80%;
 }
 
+.Apple{
+    height: 24px;
+}
+
+.Google{
+    height: 24px;
+}
+
+.card .user1{
+    width: 200px; // Set fixed width
+    height: 200px; // Set fixed height
+    object-fit: cover; // Ensures the image fits within the dimensions
+}
+
+.card .user2{
+    width: 200px; // Set fixed width
+    height: 200px; // Set fixed height
+    object-fit: cover; // Ensures the image fits within the dimensions
+}
+.card .user3{
+    width: 200px; // Set fixed width
+    height: 200px; // Set fixed height
+    object-fit: cover; // Ensures the image fits within the dimensions
+}
+.card .user4{
+    width: 200px; // Set fixed width
+    height: 200px; // Set fixed height
+    object-fit: cover; // Ensures the image fits within the dimensions
+}
+.card .user5{
+    width: 200px; // Set fixed width
+    height: 200px; // Set fixed height
+    object-fit: cover; // Ensures the image fits within the dimensions
+}
+.card .user6{
+    width: 200px; // Set fixed width
+    height: 200px; // Set fixed height
+    object-fit: cover; // Ensures the image fits within the dimensions
+}
+.card .user7{
+    width: 200px; // Set fixed width
+    height: 200px; // Set fixed height
+    object-fit: cover; // Ensures the image fits within the dimensions
+}
+.card .user8{
+    width: 200px; // Set fixed width
+    height: 200px; // Set fixed height
+    object-fit: cover; // Ensures the image fits within the dimensions
+}
+
+.navt {
+    display: flex;
+    color: white; // Makes the text white
+    margin: 0; // Removes default margins for better control over spacing
+    text-align: center; // Centers the text
+    justify-content: space-evenly;
+    padding: 5px;
+}
+
+.abu{
+    background-color: #EDEDED
+}
+  
+  
+  
+  
+   
+  
 
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
