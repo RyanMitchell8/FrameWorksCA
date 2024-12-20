@@ -25,6 +25,8 @@
 .saveE {
   background-image: url("/images/gettyimages-584487610.webp");
   background-size: cover;
+  background-position: center;
+  height: 800px;
 }
 
 .bolden {
@@ -110,6 +112,10 @@
 }
 
 .abu {
+  background-color: #EDEDED;
+}
+
+.cal {
   background-color: #EDEDED;
 }
 
